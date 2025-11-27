@@ -63,6 +63,7 @@ class BookList {
 
   /**
    * Returns reading statistics.
+   * @param {string} getstats - Returns the number of books read and not read
    * @returns {{read: number, unread: number}}
    */
   get stats() {
